@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  color: rgb(250, 250, 250);
-  background-color: rgb(34, 34, 34);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
-  color: #ececec;
+  color: #000000;
   text-align: center;
 }
 
@@ -19,11 +19,7 @@ div {
   text-align: center;
 }
 
-.navbar .container-fluid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .search-form {
   display: flex;
@@ -36,5 +32,10 @@ div {
 .form-control {
   width: 70%; /* Adjust the width of the input field as needed */
   margin-right: 5px; /* Add some spacing between input field and button */
+}
+
+.card-body{
+  background-color: #FEEDC6;
+  color: #003B4A;
 }
 
