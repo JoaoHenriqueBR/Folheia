@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #061321;
+    color: #FFC13F;
+}
+
+.row .card{
+    color: #FFC13F;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(61, 88, 118, 0.46);
+        backdrop-filter: blur(10px);
+    }    
+}
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 25%; /* this sets carousel aspect ratio (4:1 here) */
+  }
+
+main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+  
+.carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+.carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+  }
+
+footer{
+    background-color: #6D86A1;
+    color: black;
+    
+}

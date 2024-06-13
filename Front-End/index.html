@@ -4,23 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- adicionar CSS Bootstrap-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="cadastro/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- css personalizado -->
-    <link href="css/estilo.css" rel="stylesheet" media="screen">
-    <title>Cadastro</title>
+    <script src="cadastro/js/bootstrap.bundle.min.js"></script>
+    <link href="estilo.css" rel="stylesheet" media="screen">
+    <title>Folheia - Gerenciamento de Bibliotecas</title>
 </head>
-<body>
-    <h1>Cadastro de Usuários</h1>
-    <br>
-    <br>
-    <br>
-    <br>
+<body class="vh-100">
+    <header>
+      <!--NavBar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand fs-4" href="#">Folheia</a>
+          <!-- Botão-->
+          <button 
+            class="navbar-toggler shadow-none border-0" 
+            type="button" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasNavbar" 
+            aria-controls="offcanvasNavbar" 
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div>
-        <a class="btn btn-primary" href="incluir.html" role="button">Incluir</a>&nbsp;&nbsp;
-        <a class="btn btn-danger" href="excluir.html">Excluir</a>&nbsp;&nbsp;
-        <a class="btn btn-info" href="manter.html">Manter</a>&nbsp;&nbsp;
-    </div>
-    
+          <!-- Sidebar -->
+          <div 
+            class="sidebar offcanvas offcanvas-start" 
+            tabindex="-1" 
+            id="offcanvasNavbar" 
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+
+          <!-- Sidebar Header-->
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Folheia - Menu</h5>
+              <button 
+                type="button" 
+                class="btn-close btn-close-white shadow-none" 
+                data-bs-dismiss="offcanvas" 
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <!-- Sidebar Body-->
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+              <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#services">Serviços</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#contact">Contato</a>
+                </li>
+              </ul>
+              <!-- Login/Cadastro -->
+              <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                <a
+                 href="#login" 
+                 class="text-white"
+                >Login</a>
+                <a
+                 href="#cadastro" 
+                 class="text-black text-decoration-none px-3 py-1 rounded-4"
+                 style="background-color: #FFC13F;"
+                >Cadastro</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <br>
+      <br>
+      <br>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner justify-content-center">
+          <div class="carousel-item active">
+            <img src="img/lib.jpg" class="d-block w-100" alt="Corredor de uma grande Biblioteca">
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/simon_paulin-stockholm_public_library-4631-4029982352.jpg" class="d-block w-100" alt="Interior da Biblioteca Pública de Stockholm">
+          </div>
+        </div>
+      </div>
+      <h1>Folheia</h1>
+      <h2>Seu Software de Gerenciamento de Bibliotecas</h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-stretch">
+            <div class="card bg-transparent" style="width: 18rem;">
+              <img src="img/vecteezy_smartphone-and-mobile-phone_11047522.png" class="card-img-top" alt="Celular">
+              <div class="card-body">
+                <h5 class="card-title">Na Palma da sua Mão</h5>
+                <p class="card-text">Consulte o catálogo e reserve livros da sua biblioteca, disponibilize para todos! </p>
+                <a
+                  href="#services" 
+                  class="text-black text-decoration-none px-3 py-2 rounded-4 text-xxl-center"
+                  style="background-color: #FFC13F;"
+                >Experimente</a>        
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-stretch">
+            <div class="card bg-transparent" style="width: 18rem;">
+              <img src="img/Computer-Desktop-PC.png" class="card-img-top" alt="Celular">
+              <div class="card-body">
+                <h5 class="card-title">No seu ambiente de trabalho</h5>
+                <p class="card-text">Gerencie sua biblioteca de forma simples e direta</p>
+                <a
+                  href="#services" 
+                  class="text-black text-decoration-none px-3 py-2 rounded-4 text-xxl-center"
+                  style="background-color: #FFC13F;"
+                >Experimente</a>        
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      </main>
+        <footer class="text-center ">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Form -->
+        
+        
+            <!-- Section: Text -->
+            <section class="mb-4">
+              <h6>Obrigado por usar nosso site!</h6>
+            </section>
+            <!-- Section: Text -->
+        
+        
+            <!-- Section: Links -->
+            <section class="">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Recursos Usados</h5>
+        
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="https://www.vecteezy.com/free-png/computer" class="text-dark">Computer and CellphonePNGs</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">GitHub</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="https://github.com/JoaoHenriqueBR" class="text-dark">JoaoHenriqueBR</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!-- Section: Links -->
+        
+          </div>
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2024 Copyright:
+            <a class="text-dark" href="https://www.linkedin.com/in/joao-henrique-alves-ferreira-1024br/">João Henrique Alves Ferreira</a>
+          </div>
+          <!-- Copyright -->
+        <!-- Footer -->
+            </footer>
 </body>
 </html>
