@@ -29,7 +29,7 @@ body{
     padding-bottom: 25%; /* this sets carousel aspect ratio (4:1 here) */
   }
 
-main{
+h1, h2, h3, h4{
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -52,4 +52,15 @@ footer{
     background-color: #6D86A1;
     color: black;
     
+}
+
+.navbar-opaque {
+    background-color:#061321;
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
 }
