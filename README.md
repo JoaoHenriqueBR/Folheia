@@ -2,25 +2,24 @@
 
 Software para prover um gerenciamento de bibliotecas fácil e eficaz, com uma interface mais intuitiva e uma versão mobile para o usuário comum poder consultar, solicitar uma reserva e poder avaliar o livro alugado.
 
-## Fase 1 - Planejamento
+## Conteúdo do Repositório
 
-- Projetar o Software
-  - 1.0 - 24/04/24 - Definido o tema e pesquisa de mercado;
-  - 1.0 - 02/05/24 - Definido nome, descrição, background e objetivos do projeto;
-  - 1.0 - 09/05/24 - Definido os Requisitos Funcionais, não funcionais e regra de negócios.
-  - 1.0 - 15/05/24 - Definido os Casos de Uso
-  - 1.0 - 22/05/24 - Definido os cenários dos Casos de Uso
-- Definir Identidade Visual
-- Prototipação
-  - Alpha 1.0 - 27/05/24 - Usando HTML, CSS e JS, foi feito um escopo de uma Interface para Cadastro de Usuários.
+- Cadastro de Usuários em `Front-End/cadastro/index.html`(Feito para um Administrador de Bibliotecas);
+- Página de Divulgação do projeto em `Front-End/index.html`
+
+### DEPENDÊNCIAS
+
+Para o site funcionar corretamente, é necessário o uso das bibliotecas `bootstrap` e `jquery`, também disponivel nas pastas `css` e `js` dentro da pasta `Front-End`.
 
 ## Créditos
+
+Código HTML e CSS feito por João Henrique.
 
 Projeto sendo desenvolvido, em conjunto, na FATEC Zona Sul por:
 
 - João Henrique;
 - Gabriel Marcos;
-- Willian José.
+- José William.
 
 Feito sob a orientação da professora Denise Lemes Fernandes Neves.
 
