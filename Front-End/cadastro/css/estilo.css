@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: #FFC13F;
+  background-color: #061321;
 }
 
 h1 {
-  color: #000000;
+  color: #FFC13F;
   text-align: center;
 }
 
@@ -34,8 +34,11 @@ div {
   margin-right: 5px; /* Add some spacing between input field and button */
 }
 
-.card-body{
-  background-color: #FEEDC6;
-  color: #003B4A;
+.card-header{
+  background-color: #061321;
+  color: #FFC13F;
 }
 
+.card-body{
+  background-color: #1a324c;
+}
