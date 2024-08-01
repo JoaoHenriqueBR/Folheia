@@ -5,6 +5,7 @@ Software para prover um gerenciamento de bibliotecas fácil e eficaz, com uma in
 ## Conheça o Projeto
 
 **Site:** https://joaohenriquebr.github.io/Folheia/
+
 **Figma:** https://www.figma.com/proto/0MLSacVkC2iXO8IWA1Gwwg/Projeto-Engenharia-de-Software-II?node-id=30-3&starting-point-node-id=30%3A3&hide-ui=1&t=coRoT4RUw3UCqEfn-8
 
 ### DEPENDÊNCIAS
