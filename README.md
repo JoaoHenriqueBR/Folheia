@@ -2,14 +2,14 @@
 
 Software para prover um gerenciamento de bibliotecas fácil e eficaz, com uma interface mais intuitiva e uma versão mobile para o usuário comum poder consultar, solicitar uma reserva e poder avaliar o livro alugado.
 
-## Conteúdo do Repositório
+## Conheça o Projeto
 
-- Cadastro de Usuários em `Front-End/cadastro/index.html`(Feito para um Administrador de Bibliotecas);
-- Página de Divulgação do projeto em `Front-End/index.html`
+**Site:** https://joaohenriquebr.github.io/Folheia/
+**Figma:** https://www.figma.com/proto/0MLSacVkC2iXO8IWA1Gwwg/Projeto-Engenharia-de-Software-II?node-id=30-3&starting-point-node-id=30%3A3&hide-ui=1&t=coRoT4RUw3UCqEfn-8
 
 ### DEPENDÊNCIAS
 
-Para o site funcionar corretamente, é necessário o uso das bibliotecas `bootstrap` e `jquery`, também disponivel nas pastas `css` e `js` dentro da pasta `Front-End`.
+Para o site funcionar corretamente, é necessário o uso das bibliotecas `bootstrap` e `jquery`, também disponivel nas pastas `css` e `js`.
 
 ## Créditos
 
