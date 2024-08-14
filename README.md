@@ -1,6 +1,6 @@
 # Projeto de um Software de Gerênciamento de Bibliotecas
 
-Software para prover um gerenciamento de bibliotecas fácil e eficaz, com uma interface mais intuitiva e uma versão para o usuário comum poder consultar, solicitar uma reserva e poder avaliar o livro alugado.
+Software para prover um gerenciamento de bibliotecas fácil e eficaz, com uma interface intuitiva e uma versão para o usuário comum poder consultar, solicitar uma reserva e poder avaliar o livro alugado.
 
 ### [Site](https://joaohenriquebr.github.io/Folheia/)
 
